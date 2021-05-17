@@ -1,0 +1,9 @@
+/vendor
+.idea
+.DS_Store
+/web/view
+/web/adminapp/node_modules
+/web/adminapp/js/gdata.js
+/storage
+/log
+.env
