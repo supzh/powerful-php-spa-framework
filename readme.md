@@ -9,7 +9,7 @@ use Application\Application;
 use Application\Route;
 use Application\Request;
 
-Route::request('/to', function(){ //this function use to get the fronend async page request
+Route::request('/to', function(){ //this function use to get the frontend async page request
 	$tplstr = Application::asyncPage($_GET['href'], $_GET);
 	
 	echo json_encode(['code' => 0, 'content' => $tplstr]);
