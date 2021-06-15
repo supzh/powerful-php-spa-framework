@@ -42,7 +42,8 @@ html page
 
 <h1>Home</h1>
 <ul>
-	<li><a href="/index.html" data-href="/index.html" class="to">home</a></li> <!-- notice all link should add a data-href attribute and a "to" class -->
+	<!-- notice all link should add a data-href attribute and a "to" class -->
+	<li><a href="/index.html" data-href="/index.html" class="to">home</a></li> 
 	<li><a href="/sec.html" data-href="/sec.html"  class="to">second page</a></li>
 </ul>
 
@@ -52,7 +53,7 @@ html page
 ```
 
 implements
-```
+```javascript
 
 function setHref()
 {
